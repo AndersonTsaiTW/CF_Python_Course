@@ -9,7 +9,7 @@ def take_recipe():
     ingredients = []
     while (more == "Y"):
         ingredients.append(str(input("Enter your ingredients one-by-one: ")))
-        more = input("Do you have more ingredints(Y/N)?: ")
+        more = input("Do you have more ingredients(Y/N)?: ")
     recipe = {'name': name, 'cooking_time': cooking_time,
               'ingredients': ingredients}
     return recipe
