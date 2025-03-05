@@ -1,0 +1,8 @@
+# Text backup files
+*.bat
+
+# Database
+*.sqlite3
+
+# Media
+media/
