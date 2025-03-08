@@ -1,0 +1,7 @@
+Reason for Using a Different Server Instead of Heroku
+
+The course instructions suggest deploying the project on Heroku. However, as of recent updates, Heroku no longer offers a free-tier SQL database, making it impractical for hosting database-driven applications without incurring costs.
+
+After researching alternative hosting options, I followed my mentor Azamat's recommendation and successfully deployed my web application on PythonAnywhere, which provides a more accessible environment for Django applications with built-in database support.
+
+This solution allowed me to complete the deployment process without the limitations of Heroku's free-tier changes while maintaining the necessary functionality for my project.
